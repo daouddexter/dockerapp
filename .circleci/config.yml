@@ -22,4 +22,4 @@ jobs:
           command: |
             docker image ls
             docker login -u $DOCKER_HUB_USER_ID -p $DOCKER_HUB_PWD
-            docker push $DOCKER_HUB_USER_ID/dockerapp:latest
+            docker push dockerapp:latest
